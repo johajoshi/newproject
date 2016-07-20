@@ -1,7 +1,8 @@
 /*General*/
 /*site body*/
 body {
-  background-color: #a6a3ff;
+  background-color: #fff;
+  /* #a6a3ff;*/
   color: #999;
   font-family: 'Lora', serif;
 }
@@ -31,18 +32,21 @@ header {
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
-  width: 100%;
-  background:#c9d9cf;
+  width: 100%;/*
+  background:#f12068;#c9d9cf*/
+  background: #DDD;
   border-color:black;
   text-align:center; 
 }
 h1, h2 {
-  color: #f12068;
+/*  color: #c9d9cf;*/
+  color: #E80C7A;
   margin: 15px 0;
   font-size: 2.75em;
   font-weight: normal;
   line-height: 0.8 em;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Audiowide', cursive;
+/*  font-family: 'Arima Madurai', cursive;*/
 } 
 /*Navigation*/
 nav
@@ -50,8 +54,10 @@ nav
   text-align:center;
   padding:10px 0;
   margin: 20px 0 0;
+  background: #E80C7A;
+  /*
   color: blue;
-  background-color: lavender;
+  background-color: lavender;*/
 }
 nav ul {
   list-style: none;
@@ -62,17 +68,21 @@ nav li {
   display: inline-block;
 }
 nav a {
-  color: #ff294a;
+  /*color: #ff294a;*/
+  color: #fff;
   font-weight:500;
   padding: 15px 10px;
 }
-a:hover {
-  background-color: white;
-}
 nav a.selected {
-  color: #999;
+  color: #fff;
+  font-weight: bold;
 }
 
+nav a:hover {
+  background-color: white;
+  font-weight: bold;
+  color: #E80C7A;
+}
 /************************
 Portfolio Page
 *************************/
