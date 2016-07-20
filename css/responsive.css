@@ -1,0 +1,25 @@
+/*if the screen is less than 480 px small smartphones the original body rules will apply*/
+/*if the screen is larger than 480 px in tablets and very large smartphones but less than 660px, these rules will apply*/
+@media screen and (min-width: 2000px) {
+  /*Two column layout*/
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  /*Page: porfolio*/
+  #gallery li {
+    width: 28.33333%
+  }
+  #gallery li:nth-child(3n+1){
+    clear: left;
+  }
+}
+/*if the screen is larger than 3000px, these rules will apply*/
+@media screen and (min-width: 3000px) {
+ 
+  
+}
