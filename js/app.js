@@ -1,12 +1,14 @@
 var $select = $("<select></select>");
 $("#menu").append($select);
+
+//Cycle over menu links
 $("#menu a").each(function(){
-	var $anchor=$(this);
-	var $option =$("<option></option>");
-	$option.text($anchor.text());
-	$select.append($option);
-});
-if($anchor.parent().hasClass("selected")) {
+  var $anchor = $(this);
+  //Create an option
+  var $option = $("<option></option>");
+
+  //Deal with selected options depending on current page
+  if($anchor.parent().hasClass("selected")) {
     $option.prop("selected", true);
   }
   //option's value is the href
