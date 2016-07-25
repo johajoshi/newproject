@@ -9,3 +9,15 @@ $(".spoiler button").click(function(){
   //4. Get rid of button - this refers to the object of this function which in this case is the spoiler button
   $(this).remove();  
 });
+//Hoverable Menu
+$(document).ready(function () {
+    $(".hoverli").hover(
+  function () {
+     $('ul.file_menu').slideDown('medium');
+  }, 
+  function () {
+     $('ul.file_menu').slideUp('medium');
+  }
+);
+
+});
